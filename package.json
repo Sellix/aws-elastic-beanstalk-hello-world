@@ -1,0 +1,23 @@
+{
+  "name": "elastic-beanstalk-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World NodeJS application on S3 to use as default project for AWS Elastic Beanstalk Terraform configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sellix/elastic-beanstalk-hello-world.git"
+  },
+  "author": "Daniele Servadei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sellix/elastic-beanstalk-hello-world/issues"
+  },
+  "homepage": "https://github.com/Sellix/elastic-beanstalk-hello-world#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
