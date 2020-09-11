@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Sellix/elastic-beanstalk-hello-world#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.18.3"
   }
 }
