@@ -1,0 +1,20 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - echo cleaning npm cache and modules
+      - npm cache clean --force
+      - rm -rf node_modules
+      - rm -rf package-lock.json
+      - echo installing npm dependencies...
+      - npm install
+  build:
+    commands:
+      - echo build started on `date`
+  post_build:
+    commands:
+      - echo build completed on `date`
